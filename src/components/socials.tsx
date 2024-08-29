@@ -34,11 +34,6 @@ export default function Socials() {
       icon: "mdi:github",
     },
     {
-      name: "@zram@wetdry.world",
-      href: "https://wetdry.world/@zramctl",
-      icon: "mdi:mastodon",
-    },
-    {
       name: "@zramctl",
       href: "https://codeberg.org/zramctl",
       icon: "simple-icons:codeberg",
@@ -48,14 +43,15 @@ export default function Socials() {
       href: "https://signal.me/#eu/xCp3k0xDHskuu3R3NkgVRMMPXdo89zpm1CosgbJCXswPoMZ2eNBHoaCcTYiqStdB",
       icon: "simple-icons:signal",
     },
+    {
+      name: "hi@zram.sh",
+      href: "mailto:hi@zram.sh",
+      icon: "material-symbols:mail",
+    },
   ];
 
   return (
-    <Marquee
-      className="overflow-hidden rounded-full mb-2"
-      pauseOnHover
-      speed={50}
-    >
+    <Marquee className="overflow-hidden mb-2" pauseOnHover speed={50}>
       {socials.map((social, i) => (
         <Social
           name={social.name}

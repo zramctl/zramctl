@@ -13,11 +13,33 @@ export default function Home() {
         </a>
         , created in 2023
       </p>
+      <br />
       <p>
-        i don&apos;t neccessarily know what else to put here soo, this website
-        is going to be empty for hella long
+        i like programming random shenanigans, primarily websites, but im
+        currently planning on making a custom{" "}
+        <a
+          className="font-bold underline"
+          target="_blank"
+          href="https://en.wikipedia.org/wiki/Remote_Desktop_Protocol"
+        >
+          RDP
+        </a>{" "}
+        for a project called{" "}
+        <a
+          className="font-bold underline"
+          target="_blank"
+          href="//github.com/spaceness/stardust"
+        >
+          stardust
+        </a>
+        , created by one of my friends named tg.t (his button his above, go
+        check him out!)
       </p>
-      <Reviews />
+      <br />
+      <p>
+        follow me on my social media for updates on shit, or send a hello
+        through email, or through discord
+      </p>
     </main>
   );
 }

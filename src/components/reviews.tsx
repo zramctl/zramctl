@@ -24,6 +24,14 @@ const reviews: ReviewProps[] = [
     author: "layth",
     text: "dude hop off",
   },
+  {
+    author: "ameer",
+    text: "Zram is drake 2.0 [💀 what]",
+  },
+  {
+    author: "tylander",
+    text: "he uses arch btw [dawg i use nixOS]",
+  },
 ];
 
 function Review(props: ReviewProps) {
@@ -38,9 +46,11 @@ function Review(props: ReviewProps) {
 export function Reviews() {
   return (
     <div className="py-2">
-      <h1 className="mt-2 text-xl font-bold underline">
-        here are some reviews from some of my friends
-      </h1>
+      <h1 className="mt-2 text-xl font-bold underline">Wall of Reviews</h1>
+      <span>
+        want a review? if you don&apos;t know me at all then you don&apos;t know
+        me enough to review me
+      </span>
       <div className="flex flex-col">
         {reviews.map((review) => (
           <Review
