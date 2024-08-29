@@ -3,6 +3,7 @@ import zramctl from "./buttons/zramctl.png";
 import incognitotgt from "./buttons/incognitotgt.webp";
 import bomberfish from "./buttons/bomberfish.webp";
 import redcathode from "./buttons/redcathode.webp";
+import spaceness from "./buttons/spaceness.png";
 import agpl from "./buttons/agpl.webp";
 import Marquee from "react-fast-marquee";
 
@@ -37,6 +38,11 @@ const buttons: ButtonProps[] = [
     name: "agpl",
     href: "https://www.gnu.org/licenses/agpl-3.0.html",
     image: agpl,
+  },
+  {
+    name: "spaceness",
+    href: "https://spaceness.one",
+    image: spaceness,
   },
 ];
 
