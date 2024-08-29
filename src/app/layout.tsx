@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/navigation";
 import Socials from "@/components/socials";
+import { Buttons } from "@/components/buttons";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <div>
           <Navigation />
           <Socials />
+          <Buttons />
         </div>
         {children}
       </body>

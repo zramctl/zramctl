@@ -13,7 +13,7 @@ export default function Navigation() {
       <div>
         <a
           href="https://spaceness.one"
-          className="flex flex-row hover:scale-105 transition-all"
+          className="flex flex-row hover:scale-105 transition-all font-bold"
         >
           @
           <Image
