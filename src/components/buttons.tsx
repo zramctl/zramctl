@@ -65,7 +65,7 @@ function Button(props: ButtonProps) {
 
 export function Buttons() {
   return (
-    <Marquee speed={150}>
+    <Marquee pauseOnHover speed={125}>
       {buttons.map((button) => (
         <Button
           href={button.href}

@@ -13,7 +13,7 @@ export function Social(props: SocialProps) {
     <a
       href={props.href}
       target="_blank"
-      className="px-3 gap-2 py-2 w-[fit-content] rounded-full bg-white flex flex-row mx-1 text-black items-center justify-center"
+      className="px-3 gap-2 py-1.5 w-[fit-content] rounded-full bg-white flex flex-row mx-1 text-black items-center justify-center"
     >
       <Icon width="32" height="32" icon={props.icon} />
       <span className="text-wrap">{props.name}</span>
@@ -44,14 +44,19 @@ export default function Socials() {
       icon: "simple-icons:signal",
     },
     {
-      name: "hi@zram.sh",
-      href: "mailto:hi@zram.sh",
-      icon: "material-symbols:mail",
+      name: "@zramctl",
+      href: "https://x.com/@zramctl",
+      icon: "prime:twitter",
+    },
+    {
+      name: "@zram.sh",
+      href: "https://bsky.app/profile/zram.sh",
+      icon: "ri:bluesky-fill",
     },
   ];
 
   return (
-    <Marquee className="overflow-hidden mb-2" pauseOnHover speed={50}>
+    <Marquee className="overflow-hidden mb-2" pauseOnHover speed={125}>
       {socials.map((social, i) => (
         <Social
           name={social.name}
