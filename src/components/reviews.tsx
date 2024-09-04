@@ -32,6 +32,10 @@ const reviews: ReviewProps[] = [
     author: "tylander",
     text: "he uses arch btw [dawg i use nixOS]",
   },
+  {
+    author: "Jack",
+    text: "Arc isn't my #1 opp yusof is",
+  },
 ];
 
 function Review(props: ReviewProps) {
