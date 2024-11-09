@@ -53,6 +53,11 @@ export default function Socials() {
       href: "https://bsky.app/profile/zram.sh",
       icon: "ri:bluesky-fill",
     },
+    {
+      name: "github:zramctl/dotfiles",
+      href: "https://github.com/zramctl/dotfiles",
+      icon: "simple-icons:nixos",
+    },
   ];
 
   return (

@@ -12,7 +12,7 @@ export default function Navigation() {
       </div>
       <div className="flex flex-row items-center gap-2">
         <a
-          href="https://spaceness.one"
+          href="https://github.com/spaceness"
           target="_blank"
           className="flex flex-row hover:scale-105 transition-all font-bold"
         >
@@ -23,12 +23,6 @@ export default function Navigation() {
             alt="spaceness logo"
             src="/spaceness.svg"
           />
-        </a>
-        <a
-          href="/reviews"
-          className="flex flex-row hover:scale-105 transition-all underline"
-        >
-          reviews
         </a>
       </div>
     </div>
