@@ -1,36 +1,48 @@
+import { Spaceness } from "@/components/spaceness";
+import { Icon } from "@iconify/react";
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main>
-      <p>
-        hey, im yusof (aka. zramctl) im the founder of{" "}
-        <a
-          className="font-bold underline"
-          target="_blank"
-          href="//spaceness.one"
-        >
-          spaceness
-        </a>
-        , created in 2023
-      </p>
-      <br />
-      <p>
-        i like programming random shenanigans, primarily websites, but im
-        currently working on a project called{" "}
-        <a
-          className="font-bold underline"
-          target="_blank"
-          href="//github.com/spaceness/stardust"
-        >
-          stardust
-        </a>
-        , created by one of my friends named tg.t (his button is above, go check
-        him out!)
-      </p>
-      <br />
-      <p>
-        follow me on my social media for updates on shit, or send a hello
-        through email or discord
-      </p>
+    <main className="flex flex-col gap-3">
+      <article>
+        <h2 className="text-2xl font-semibold">hey!</h2>
+        <p className="flex items-center">
+          hey, im yusof (aka. zramctl), im the founder of{" "}
+          <a
+            href="https://github.com/spaceness"
+            className="flex flex-row gap-1 ml-3 font-bold"
+          >
+            <Image
+              width="32"
+              height="32"
+              alt="spaceness logo"
+              src="/spaceness.svg"
+            />
+            spaceness
+          </a>
+          .
+        </p>
+      </article>
+      <article>
+        <h2 className="text-2xl font-semibold">what i've been working on</h2>
+        <p className="flex items-center">
+          currently, i've been dedicating all my time to{" "}
+          <a
+            href="https://github.com/zramctl/dotfiles"
+            className="flex flex-row items-center gap-1 ml-0.5 font-bold"
+          >
+            <Icon icon={"simple-icons:nixos"} fontSize={18} />
+            my dotfiles
+          </a>
+          , which i have seemed to now finish.
+        </p>
+        <br />
+        <p>
+          it did take a long time but now I will be shifting towards working on
+          other important projects.
+        </p>
+      </article>
     </main>
   );
 }
