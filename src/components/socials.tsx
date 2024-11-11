@@ -15,7 +15,7 @@ export function Social(props: SocialProps) {
       target="_blank"
       className="px-3 gap-2 py-1.5 w-[fit-content] rounded-full bg-white flex flex-row mx-1 text-black items-center justify-center"
     >
-      <Icon width="32" height="32" icon={props.icon} />
+      <Icon width="32" height="32" icon={props.icon} color="#262626" />
       <span className="text-wrap">{props.name}</span>
     </a>
   );
