@@ -25,9 +25,9 @@ export default function Home() {
         </p>
       </article>
       <article>
-        <h2 className="text-2xl font-semibold">what i've been working on</h2>
+        <h2 className="text-2xl font-semibold">what i&apos;ve been working on</h2>
         <p className="flex items-center">
-          currently, i've been dedicating all my time to{" "}
+          currently, i&apos;ve been dedicating all my time to{" "}
           <a
             href="https://github.com/zramctl/dotfiles"
             className="flex flex-row items-center gap-1 ml-0.5 font-bold"
